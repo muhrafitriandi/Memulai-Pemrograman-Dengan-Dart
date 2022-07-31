@@ -38,8 +38,13 @@ void main(List<String> arguments) {
 
   // ---------------------------------------------------------------------------
 
-  expression1 ?? expression2
-  var buyer = name ?? 'user';
+  // expression1 ?? expression2
+  // var buyer = name ?? 'user';
+
+  // ---------------------------------------------------------------------------
+  // Challenge
+  var haveEggs = true ? "6 bottle of milk" : "No eggs";
+  print(haveEggs);
 }
 
 String calculateScore(num score) {
